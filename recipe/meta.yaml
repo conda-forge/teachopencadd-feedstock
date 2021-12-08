@@ -1,18 +1,18 @@
 {% set name = "teachopencadd" %}
-{% set version = "1.4.0" %}
+{% set version = "2021.12.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/volkamerlab/{{ name|lower }}/archive/v{{ version }}.tar.gz
-  sha256: ba2f65e16a807fbe1806fc1c08be5d6509a51783531eb5c89d42f7b71106b504
+  url: https://github.com/volkamerlab/{{ name|lower }}/archive/{{ version }}.tar.gz
+  sha256: 3bc36e23d666a23ef4265747a63d6525711f7901d2267ebdb88eb4de522f742d
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - teachopencadd = teachopencadd.cli:main
 
