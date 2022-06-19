@@ -29,6 +29,7 @@ requirements:
     - numpy
     - scikit-learn
     - tensorflow >=2.0
+    - h5py <3.0.0
     - seaborn
     - matplotlib-venn
     - jsonschema <4.0.0
@@ -42,7 +43,7 @@ requirements:
     - pypdb
     - biopython <=1.77
     - biopandas
-    - rdkit >=2021.03
+    - rdkit ==2021.09.5
     - openbabel
     - opencadd
     - biotite
@@ -51,6 +52,10 @@ requirements:
     - mdtraj
     - plip
     - openmm
+    - pdbfixer
+    - tqdm
+    - lxml
+    - kissim
 
 test:
   requires:
