@@ -1,5 +1,5 @@
 {% set name = "teachopencadd" %}
-{% set version = "2021.12.1" %}
+{% set version = "2021.12.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/volkamerlab/{{ name|lower }}/archive/{{ version }}.tar.gz
-  sha256: a405f8ccf24f6a04a5aef1b0e4db39a7922f9fa1026c86733707784c86c95317
+  sha256: 80add2d2106ca473e63075f40b0f80baf5f91c2dc5a365502977f2c1b16b0649
 
 build:
   noarch: python
@@ -29,6 +29,7 @@ requirements:
     - numpy
     - scikit-learn
     - tensorflow >=2.0
+    - h5py <3.0.0
     - seaborn
     - matplotlib-venn
     - jsonschema <4.0.0
@@ -42,7 +43,7 @@ requirements:
     - pypdb
     - biopython <=1.77
     - biopandas
-    - rdkit >=2021.03
+    - rdkit ==2021.09.5
     - openbabel
     - opencadd
     - biotite
@@ -51,6 +52,10 @@ requirements:
     - mdtraj
     - plip
     - openmm
+    - pdbfixer
+    - tqdm
+    - lxml
+    - kissim
 
 test:
   requires:
