@@ -18,17 +18,17 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
   run:
-    - python >=3.7
+    - python >=3.8
     - jupyter
     - jupyterlab >=3
     - nglview >=3
-    - ipywidgets >=7.5
+    - ipywidgets <8
     - numpy
     - scikit-learn
-    - tensorflow >=2.0
+    - tensorflow <=2.6
     - h5py <3.0.0
     - seaborn
     - matplotlib-venn
@@ -46,7 +46,7 @@ requirements:
     - rdkit ==2021.09.5
     - openbabel
     - opencadd
-    - biotite
+    - biotite >=0.34.0
     - smina
     - mdanalysis >=1.0.0
     - mdtraj
