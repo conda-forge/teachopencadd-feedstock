@@ -22,17 +22,15 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - jupyter
     - jupyterlab >=3
+    - jsonschema >=4.3.0
     - nglview >=3
     - ipywidgets <8
-    - numpy
+    - numpy <1.24
     - scikit-learn
     - tensorflow <=2.6
-    - h5py <3.0.0
     - seaborn
     - matplotlib-venn
-    - jsonschema <4.0.0
     - bravado
     - requests
     - requests-cache
