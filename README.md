@@ -1,11 +1,11 @@
-About teachopencadd
-===================
+About teachopencadd-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/teachopencadd-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/volkamerlab/teachopencadd
 
 Package license: CC-BY-4.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/teachopencadd-feedstock/blob/main/LICENSE.txt)
 
 Summary: TeachOpenCADD: a teaching platform for computer-aided drug design (CADD) using open source packages and data
 
