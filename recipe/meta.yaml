@@ -1,5 +1,5 @@
 {% set name = "teachopencadd" %}
-{% set version = "2022.09.1" %}
+{% set version = "2023.05.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/volkamerlab/{{ name|lower }}/archive/{{ version }}.tar.gz
-  sha256: f3e99bec6f2d92516b7fe8a9aee8102284640a827ed18eb91a56aeb093b9e138
+  sha256: b5b18da6e456263998199f90e50215ff46fa50d680fcbdfaf03ca2088aa4cf00
 
 build:
   noarch: python
