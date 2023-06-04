@@ -23,7 +23,7 @@ requirements:
   run:
     - python >=3.8
     - mkl <2022
-    - pytorch::pytorch ==1.13.0
+    - pytorch
     - jupyterlab >=3
     - jsonschema >=4.3.0
     - nglview >=3
