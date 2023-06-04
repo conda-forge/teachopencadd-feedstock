@@ -26,11 +26,11 @@ requirements:
     - jsonschema >=4.3.0
     - nglview >=3
     - ipywidgets <=7.75
-    - jupyter_client<=7.4.9
+    - jupyter_client <=7.4.9
     - numpy <1.24
     - scikit-learn
-    - mkl < 2022
-    - pytorch::pytorch==1.13.0
+    - mkl <2022
+    - pytorch::pytorch ==1.13.0
     - tensorflow <=2.6
     - seaborn
     - matplotlib-venn
